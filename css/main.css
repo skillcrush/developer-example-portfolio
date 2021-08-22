@@ -95,7 +95,7 @@ html {
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  color: #4a4f3e;
+  color: #453E4F;
   background-color: white;
   /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
 }
@@ -108,12 +108,12 @@ ol {
 }
 
 a {
-  color: #4a4f3e;
+  color: #453E4F;
   text-decoration: none;
 }
 
 h1 {
-  color: #4a4f3e;
+  color: #453E4F;
   font-family: 'Alike', serif;
   font-size: 1.75rem;
   line-height: 1.5;
@@ -121,7 +121,7 @@ h1 {
 }
 
 h2 {
-  color: #4a4f3e;
+  color: #453E4F;
   font-family: 'Alike', serif;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -146,7 +146,7 @@ h5 {
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem;
-  color: #4A4F3E;
+  color: #453E4F;
 }
 
 
@@ -203,7 +203,9 @@ footer {
   width: 85%;
 }
 
-.left-align-text {
+#work p,
+#about p {
+  width: 100%;
   text-align: left;
 }
 
@@ -312,7 +314,7 @@ nav ul li a {
 }
 
 nav #contact-link {
-  background-color: #E2F3E8;
+  background-color: #F19494;
   padding: 10px 10px;
   border-radius: 30px;
 }
@@ -367,14 +369,19 @@ header h2 {
 }
 
 .project-link {
-  background-color: #4A4F3E;
+  background-color: #453E4F;
   padding: 1rem 4rem;
   border-radius: 30px;
   color: #FFFFFF;
 }
 
 .project-link:hover {
-  background-color: #2B2E23;
+  background-color: #CAC4D1;
+  color: #453E4F;
+}
+
+#skills {
+  background-color: #FFE8D6;
 }
 
 #skills h4 {
@@ -384,7 +391,7 @@ header h2 {
 
 .language-wrapper p,
 .tool-wrapper p {
-  background-color: #FFE8D6;
+  background-color: #F19494;
   padding: 5px 0;
   margin: 20px 0;
 }
@@ -396,12 +403,10 @@ header h2 {
 /* About */
 #about {
   width: 100%;
-  background-color: #ffe8d6;
 }
 
 #profile-image {
   width: 90%;
-  border: 12px solid white;
 }
 
 #about h3,
@@ -411,6 +416,10 @@ header h2 {
 }
 
 /* -------------------- Base Header Styles -------------------- */
+footer {
+  background-color: #FFE8D6;
+}
+
 footer .contact-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -451,7 +460,7 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 1.875rem;
-  color: #4a4f3e;
+  color: #453e4f;
 }
 
 
@@ -933,8 +942,8 @@ footer .social-icons li i {
 
   nav ul li a:hover,
   nav #contact-link:hover {
-    background-color: #315E4D;
-    color: #ffffff;
+    background-color: #F8C6C6;
+    color: #453E4F;
     padding: 10px 10px;
     border-radius: 30px;
   }
