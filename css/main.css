@@ -95,7 +95,7 @@ html {
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  color: #4a4f3e;
+  color: #453E4F;
   background-color: white;
   /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
 }
@@ -108,12 +108,12 @@ ol {
 }
 
 a {
-  color: #4a4f3e;
+  color: #453E4F;
   text-decoration: none;
 }
 
 h1 {
-  color: #4a4f3e;
+  color: #453E4F;
   font-family: 'Alike', serif;
   font-size: 1.75rem;
   line-height: 1.5;
@@ -121,7 +121,7 @@ h1 {
 }
 
 h2 {
-  color: #4a4f3e;
+  color: #453E4F;
   font-family: 'Alike', serif;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -146,7 +146,7 @@ h5 {
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem;
-  color: #4A4F3E;
+  color: #453E4F;
 }
 
 
@@ -203,7 +203,9 @@ footer {
   width: 85%;
 }
 
-.left-align-text {
+#work p,
+#about p {
+  width: 100%;
   text-align: left;
 }
 
@@ -225,7 +227,7 @@ p {
 /* then can set the margin & paddings for any element */
 header {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 nav {
@@ -233,7 +235,7 @@ nav {
 }
 
 #work {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 #skills {
@@ -241,17 +243,20 @@ nav {
 }
 
 #about {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-footer {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
+footer {
+  padding: 80px 0;
+}
+
 h2 {
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+h3 {
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -263,15 +268,15 @@ h4 {
 }
 
 .project-link {
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
 }
 
 #skills {
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 figure {
-  margin: 20px 0;
+  margin: 20px 0 40px 0;
 }
 
 .skills-header {
@@ -279,19 +284,23 @@ figure {
 }
 
 .about-info h3 {
-  margin: 40px 0 60px 0;
+  margin: 40px 0 40px 0;
 }
 
 .about-text {
   margin: 0 0 30px 0;
 }
 
+#contact h3 {
+  margin-bottom: 60px;
+}
+
 .contact-info {
-  margin: 60px 0;
+  margin: 0 0 60px 0;
 }
 
 .contact-title {
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 /* -------------------- Base Header Styles -------------------- */
@@ -312,7 +321,7 @@ nav ul li a {
 }
 
 nav #contact-link {
-  background-color: #E2F3E8;
+  background-color: #F19494;
   padding: 10px 10px;
   border-radius: 30px;
 }
@@ -367,25 +376,30 @@ header h2 {
 }
 
 .project-link {
-  background-color: #4A4F3E;
-  padding: 1rem 4rem;
+  background-color: #453E4F;
+  padding: .75rem 3.75rem;
   border-radius: 30px;
   color: #FFFFFF;
 }
 
 .project-link:hover {
-  background-color: #2B2E23;
+  background-color: #CAC4D1;
+  color: #453E4F;
+}
+
+#skills {
+  background-color: #FFE8D6;
 }
 
 #skills h4 {
-  margin: 40px 0 20px 0;
+  margin: 40px 0 40px 0;
   font-weight: bold;
 }
 
 .language-wrapper p,
 .tool-wrapper p {
-  background-color: #FFE8D6;
-  padding: 5px 0;
+  background-color: #F19494;
+  padding: 15px 0;
   margin: 20px 0;
 }
 
@@ -396,12 +410,10 @@ header h2 {
 /* About */
 #about {
   width: 100%;
-  background-color: #ffe8d6;
 }
 
 #profile-image {
   width: 90%;
-  border: 12px solid white;
 }
 
 #about h3,
@@ -411,6 +423,10 @@ header h2 {
 }
 
 /* -------------------- Base Header Styles -------------------- */
+footer {
+  background-color: #FFE8D6;
+}
+
 footer .contact-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -451,7 +467,7 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 1.875rem;
-  color: #4a4f3e;
+  color: #453e4f;
 }
 
 
@@ -590,19 +606,19 @@ footer .social-icons li i {
 
   /*#work */
   #work {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   #skills {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   footer {
-    padding: 120px 0;
+    padding: 140px 0;
   }
 
   #about {
-    padding: 120px 0;
+    padding: 80px 0;
   }
 
   footer {
@@ -617,10 +633,6 @@ footer .social-icons li i {
     margin: 0 0 60px 0;
   }
 
-  h4 {
-    margin: 0 0 40px 0;
-  }
-
   .project-description {
     margin: 0 0 30px 0;
   }
@@ -630,7 +642,7 @@ footer .social-icons li i {
   }
 
   #skills {
-    padding-top: 20px;
+    padding-top: 80px;
   }
 
   .skills-header {
@@ -638,11 +650,7 @@ footer .social-icons li i {
   }
 
   #skills h4 {
-    margin: 40px 0 10px 0;
-  }
-
-  figure {
-    margin: 20px 0;
+    margin: 40px 0 20px 0;
   }
 
   .about-info h3 {
@@ -728,7 +736,7 @@ footer .social-icons li i {
 
   .language-wrapper p,
   .tool-wrapper p {
-    padding: 5px 0;
+    padding: 15px 0;
   }
 
   /* about */
@@ -834,7 +842,7 @@ footer .social-icons li i {
   .project-link,
   .language-wrapper p,
   .tool-wrapper p {
-    font-size: 1.375rem;
+    font-size: 1rem;
   }
 
   /* element margins */
@@ -849,20 +857,20 @@ footer .social-icons li i {
   }
 
   #work {
-    padding-top: 140px;
+    padding-top: 80px;
   }
 
   #skills {
-    padding-bottom: 140px;
+    padding-bottom: 120px;
   }
 
   #about {
-    padding-top: 140px;
-    padding-bottom: 160px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   footer {
-    padding: 160px 0 140px 0;
+    padding: 140px 0 140px 0;
   }
 
   h2 {
@@ -870,11 +878,7 @@ footer .social-icons li i {
   }
 
   .portfolio-header {
-    margin: 0 0 80px 0;
-  }
-
-  h4 {
-    margin: 20px 0 40px 0;
+    margin: 0 0 60px 0;
   }
 
   .project-description {
@@ -882,19 +886,19 @@ footer .social-icons li i {
   }
 
   .project-link {
-    margin: 40px 0 120px 0;
+    margin: 40px 0 80px 0;
   }
 
   #skills {
-    padding-top: 40px;
+    padding-top: 120px;
   }
 
+  #skills .content-wrapper {
+    max-width: 900px;
+  }
+  
   .skills-header {
     margin-bottom: 40px;
-  }
-
-  figure {
-    margin: 0;
   }
 
   .about-info h3 {
@@ -910,7 +914,7 @@ footer .social-icons li i {
   }
 
   .contact-info {
-    margin: 80px 0 40px 0;
+    margin: 80px 0 80px 0;
   }
 
   .contact-title {
@@ -933,8 +937,8 @@ footer .social-icons li i {
 
   nav ul li a:hover,
   nav #contact-link:hover {
-    background-color: #315E4D;
-    color: #ffffff;
+    background-color: #F8C6C6;
+    color: #453E4F;
     padding: 10px 10px;
     border-radius: 30px;
   }
@@ -957,12 +961,6 @@ footer .social-icons li i {
   .tool {
     width: 30%;
   }
-
-  .language-wrapper p,
-  .tool-wrapper p {
-    padding: 5px 0;
-  }
-
 
   /* about */
   .about-content-wrapper {
