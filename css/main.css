@@ -633,10 +633,6 @@ footer .social-icons li i {
     margin: 0 0 60px 0;
   }
 
-  h4 {
-    margin: 0 0 40px 0;
-  }
-
   .project-description {
     margin: 0 0 30px 0;
   }
@@ -655,10 +651,6 @@ footer .social-icons li i {
 
   #skills h4 {
     margin: 40px 0 20px 0;
-  }
-
-  figure {
-    margin: 20px 0;
   }
 
   .about-info h3 {
@@ -886,11 +878,7 @@ footer .social-icons li i {
   }
 
   .portfolio-header {
-    margin: 0 0 80px 0;
-  }
-
-  h4 {
-    margin: 20px 0 40px 0;
+    margin: 0 0 60px 0;
   }
 
   .project-description {
@@ -905,12 +893,12 @@ footer .social-icons li i {
     padding-top: 120px;
   }
 
+  #skills .content-wrapper {
+    max-width: 900px;
+  }
+  
   .skills-header {
     margin-bottom: 40px;
-  }
-
-  figure {
-    margin: 0;
   }
 
   .about-info h3 {
