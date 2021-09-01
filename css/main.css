@@ -316,10 +316,6 @@ header nav ul li {
   text-transform: uppercase;
 }
 
-nav ul li a {
-  padding: 10px 10px;
-}
-
 nav #contact-link {
   background-color: #F19494;
   padding: 10px 10px;
@@ -896,7 +892,7 @@ footer .social-icons li i {
   #skills .content-wrapper {
     max-width: 900px;
   }
-  
+
   .skills-header {
     margin-bottom: 40px;
   }
