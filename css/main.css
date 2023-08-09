@@ -766,7 +766,6 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
   }
 
   footer .social-icons li i {
@@ -974,10 +973,6 @@ footer .social-icons li i {
     max-width: 70%;
   }
 
-  footer .social-icons {
-    width: 12.5em;
-    justify-content: space-between;
-  }
 }
 
 
